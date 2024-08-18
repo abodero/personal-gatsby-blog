@@ -37,7 +37,7 @@ e. Others
       HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
 /* ------------------------------------------------------------------ */
 
-/* html, body, div, span, object, iframe,
+html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
 del, dfn, em, img, ins, kbd, q, samp,
@@ -56,7 +56,7 @@ time, mark, audio, video {
    font-size: 100%;
    vertical-align: baseline;
    background: transparent;
-} */
+} 
 
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
@@ -136,12 +136,12 @@ table {
    box-sizing: border-box;
 }
 
-/* html {
+ html {
    font-size: 62.5%;
    -webkit-font-smoothing: antialiased;
-} */
+} 
 
-/* body {
+ body {
    background: #fff;
    font-family: 'opensans-regular', sans-serif;
    font-weight: normal;
@@ -151,7 +151,7 @@ table {
 
    -webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
-} */
+} 
 
 /*  2. Typography
        Vertical rhythm with leading derived from 6

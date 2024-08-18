@@ -41,7 +41,7 @@
   --fontWeight-normal: 400;
   --fontWeight-bold: 700;
   --fontWeight-black: 900;
-  --fontSize-root: 16px;
+  --fontSize-root: 26px;
   --lineHeight-none: 1;
   --lineHeight-tight: 1.1;
   --lineHeight-normal: 1.5;
@@ -86,7 +86,6 @@ body {
   background: linear-gradient(135deg, #fff, #adbaba); /* Gradient background */
   padding: var(--spacing-4); /* Add some padding for better appearance */
   border-radius: var(--radius-4); /* Optional: Add rounded corners */
-
 }
 
 footer {
@@ -186,8 +185,12 @@ ol {
 .social {
   display: flex;
   list-style-type: none;
-  margin-top: var(--spacing-0);
+  margin: 10px 0;
+  padding: 0;
+  font-size: 30px;
 }
+
+
 
 .social li a:hover { color: #11ABB0; }
 
@@ -273,6 +276,7 @@ a:focus {
   margin: 0;
 }
 
+
 .post-list-item {
   margin-bottom: var(--spacing-8);
   margin-top: var(--spacing-8);
@@ -280,6 +284,8 @@ a:focus {
 
 .post-list-item p {
   margin-bottom: var(--spacing-0);
+  justify-content: center;
+  text-align: justify;
 }
 
 .post-list-item h2 {
@@ -307,6 +313,7 @@ a:focus {
 
 .bio p {
   margin-bottom: var(--spacing-0);
+  text-align: justify;
 }
 
 .bio-avatar {
@@ -342,6 +349,22 @@ a:focus {
 }
 
 /* Media queries */
+/* Mobile view styles */
+@media (max-width: 600px) {
+  :root { 
+    --fontSize-root: 16px;
+  }
+
+  .main-heading {
+    font-size: var(--fontSize-5);
+    margin: 0;
+  }
+
+  .social {
+    font-size: 24px; /* Smaller font size for mobile */
+    padding: 0px;   /* Reduced padding for mobile */
+  }
+}
 
 @media (max-width: 42rem) {
   blockquote {

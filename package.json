@@ -10,7 +10,7 @@
   "dependencies": {
     "@fontsource/merriweather": "^5.0.8",
     "@fontsource-variable/montserrat": "^5.0.17",
-    "gatsby": "^5.13.5",
+    "gatsby": "5.13.1",
     "gatsby-plugin-feed": "^5.13.1",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
@@ -22,8 +22,8 @@
     "gatsby-transformer-remark": "^6.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
     "prismjs": "^1.29.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
     "react-typewriter": "^0.4.1"
   },
   "devDependencies": {
@@ -46,5 +46,10 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "overrides": {
+  "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
+    "react": "^18.1.0"
   }
+}
 }

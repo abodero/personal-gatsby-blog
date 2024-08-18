@@ -27,8 +27,8 @@
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
-/* header {
+/*
+ header {
    position: relative;
    height: 800px;
    min-height: 500px;
@@ -41,7 +41,7 @@
 } */
 
 /* vertically center banner section */
-/* header:before {
+ header:before {
    content: '';
    display: inline-block;
    vertical-align: middle;
@@ -83,7 +83,7 @@ header .banner-text hr {
 } */
 
 /* header social links */
- header .social {
+header .social {
    margin: 24px 0;
    padding: 0;
    font-size: 30px;
