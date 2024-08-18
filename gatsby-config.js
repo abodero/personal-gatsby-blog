@@ -16,10 +16,28 @@ module.exports = {
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `guayacoabs`,
-    },
-  },
+    socials: [
+      {
+        name: "youtube",
+        url: "https://www.youtube.com/channel/UC1BQ8IIBZGK-aVWc0dtJZLw",
+        className: "fa fa-youtube"
+      },
+      {
+        name: "linkedin",
+        url: "https://www.linkedin.com/in/alvarobodero",
+        className: "fa fa-linkedin"
+      },
+      {
+        name: "github",
+        url: "https://github.com/abodero",
+        className: "fa fa-github"
+      },
+      {
+        name: "twitter",
+        url: "https://x.com/guayacoabs",
+        className: "fa fa-twitter"
+      }
+  ]},
   plugins: [
     `gatsby-plugin-image`,
     {

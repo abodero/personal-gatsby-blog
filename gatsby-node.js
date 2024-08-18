@@ -95,7 +95,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type SiteSiteMetadata {
       author: Author
       siteUrl: String
-      social: Social
+      socials: [Social]
     }
 
     type Author {
@@ -104,7 +104,9 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
 
     type Social {
-      twitter: String
+      name: String,
+      url: String,
+      className: String
     }
 
     type MarkdownRemark implements Node {

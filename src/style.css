@@ -1,4 +1,7 @@
 /* CSS Custom Properties Definitions */
+@import url("../public/css/fonts.css");
+@import url("../public/css/fontello/css/fontello.css");
+@import url("../public/css/font-awesome/css/font-awesome.min.css");
 
 :root {
   --maxWidth-none: "none";
@@ -175,10 +178,19 @@ ol {
   list-style-image: none;
 }
 
+.social {
+  display: flex;
+  list-style-type: none;
+  margin-top: var(--spacing-0);
+}
+
+//.social li a { color: #fff; }
+.social li a:hover { color: #11ABB0; }
+
 ul li,
 ol li {
-  padding-left: var(--spacing-0);
-  margin-bottom: calc(var(--spacing-8) / 2);
+  padding-left: var(--spacing-2);
+  margin-bottom: calc(var(--spacing-4) / 2);
 }
 
 li > p {
@@ -245,7 +257,7 @@ a:focus {
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
-  margin-bottom: var(--spacing-20);
+  margin-bottom: var(--spacing-0);
 }
 
 .global-header {
@@ -300,6 +312,14 @@ a:focus {
   border-radius: 100%;
 }
 
+.bio-header {
+  margin-top: var(--spacing-8);
+  margin-right: var(--spacing-4);
+  margin-bottom: var(--spacing-0);
+  min-width: 50px;
+  border-radius: 2%;
+}
+
 .blog-post header h1 {
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
 }
@@ -329,3 +349,5 @@ a:focus {
     list-style-position: inside;
   }
 }
+
+

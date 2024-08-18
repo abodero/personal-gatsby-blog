@@ -18,8 +18,10 @@ const Bio = () => {
             name
             summary
           }
-          social {
-            twitter
+          socials {
+            name
+            url
+            className
           }
         }
       }
@@ -28,7 +30,17 @@ const Bio = () => {
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
-  const social = data.site.siteMetadata?.social
+  const socials = data.site.siteMetadata?.socials
+
+  var networks = socials && socials.map(function (network) {
+    return (
+      <li key={network.name}>
+        <a href={network.url}>
+          <i className={network.className}></i>
+        </a>
+      </li>
+    );
+  });
 
   return (
     <div className="bio">
@@ -46,10 +58,9 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
+            <ul className="social">{networks}</ul>
         </p>
+          
       )}
     </div>
   )
