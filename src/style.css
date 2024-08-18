@@ -1,7 +1,7 @@
 /* CSS Custom Properties Definitions */
-@import url("../public/css/fonts.css");
-@import url("../public/css/fontello/css/fontello.css");
-@import url("../public/css/font-awesome/css/font-awesome.min.css");
+@import url("../static/css/fonts.css");
+@import url("../static/css/fontello/css/fontello.css");
+@import url("../static/css/font-awesome/css/font-awesome.min.css");
 
 :root {
   --maxWidth-none: "none";
@@ -82,6 +82,11 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
+  margin-top: var(--spacing-0);
+  background: linear-gradient(135deg, #fff, #adbaba); /* Gradient background */
+  padding: var(--spacing-4); /* Add some padding for better appearance */
+  border-radius: var(--radius-4); /* Optional: Add rounded corners */
+
 }
 
 footer {
@@ -184,7 +189,6 @@ ol {
   margin-top: var(--spacing-0);
 }
 
-//.social li a { color: #fff; }
 .social li a:hover { color: #11ABB0; }
 
 ul li,

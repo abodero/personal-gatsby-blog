@@ -9,8 +9,7 @@ const Layout = ({ location, title, children }) => {
 
   if (isRootPath) {
     header = (
-      <div style={{ display: '', justifyContent: 'space-between' }}
-      >
+      <div>
         <h1 className="main-heading">
           <Link to="/">{title}</Link>
         </h1>
