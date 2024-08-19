@@ -185,14 +185,13 @@ ol {
 .social {
   display: flex;
   list-style-type: none;
-  margin: 10px 0;
+  margin: 10px; 
   padding: 0;
   font-size: 30px;
 }
 
-
-
 .social li a:hover { color: #11ABB0; }
+.social li { margin-right: 10px; }
 
 ul li,
 ol li {
@@ -247,7 +246,7 @@ table thead tr th {
 /* Link */
 
 a {
-  color: var(--color-primary);
+  color: var(--color-social);
 }
 
 a:hover,
@@ -293,6 +292,7 @@ a:focus {
   color: var(--color-primary);
   margin-bottom: var(--spacing-2);
   margin-top: var(--spacing-0);
+  text-align: justify;
 }
 
 .post-list-item header {
