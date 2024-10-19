@@ -16,6 +16,6 @@ Every new game is different, start playing free! for maximum fun and enjoy!.
 
 04/07/2023: Version(3.0.2) Two new icon sets were added for additional playing options; The software was upgraded to the latest Universal Windows Platform(UWP) version, which included full support for Windows 11. The upgrade also involved migrating multiple modules to .net core standard 2.0, providing speed improvements and addressed various bugs related to asynchronous behavior among others.
 
-Checkout out the game in the Windows Store,
-([Matching Pair](https://www.microsoft.com/en-us/p/matching-pair/9pmnnkhk585d?rtc=1&activetab=pivot:overviewtab))
+Checkout out the 
+(<a href="https://www.microsoft.com/en-us/p/matching-pair/9pmnnkhk585d?rtc=1&activetab=pivot:overviewtab" target="_blank">Matching Pair</a>) game in the Windows Store.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ox5-E5QCREc?si=zRAmF-uuj-ZtI4Wk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
