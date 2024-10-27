@@ -1,7 +1,7 @@
 ---
 title: Creating a dynamic table using bootstrap 4 and react-hooks
 date: "2020-03-28T22:12:03.284Z"
-description: "How to create a dynamic table using bootstrap 4 and react-hooks"
+description: "I've been looking at different ways of creating dynamic tables using react, there are different options to do this, but my goal was to have a very easy way to pass a data set and have it displayed without much additional work..."
 ---
 
 I've been looking at different ways of creating dynamic tables using react, there are different options to do this, but my goal was to have a very easy way to pass a data set and have it displayed without much additional work. One amazing project i run into is [react-admin](https://marmelab.com/react-admin), this is a fully fledged product and you can do many things with it. I recommend to check it out and give it a try. In my case, though, i wanted to do something simple. So i started from scratch.

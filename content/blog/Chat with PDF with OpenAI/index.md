@@ -1,10 +1,11 @@
 ---
 title: Chat With PDF Challenge using OpenAI, Firebase and Pinecone
 date: "2024-07-30T23:46:37.121Z"
+description: "The Project I will discuss was showcased on a 5-Day Full Stack AI SaaS Challenge presented by Sunny Sangha. The Challenge involved building a Web Application to upload PDF files and develop a Chat feature to interact with the documents and ask Questions using OpenAI..."
 ---
 
 ### Introduction
-The Project I will discuss was showcased on a 5-Day ([Full Stack AI SaaS Challenge](https://www.youtube.com/watch?v=z0ZE6lnhdns&t=3221s)) presented by Sunny Sangha. The Challenge involved building a Web Application to upload PDF files and develop a Chat feature to interact with the documents and ask Questions using OpenAI.
+The Project I will discuss was showcased on a 5-Day (<a href="https://www.youtube.com/watch?v=z0ZE6lnhdns&t=3221s" target="_blank">Full Stack AI SaaS Challenge</a>) presented by Sunny Sangha. The Challenge involved building a Web Application to upload PDF files and develop a Chat feature to interact with the documents and ask Questions using OpenAI.
 ### The Tech Stack
 The tech stack used for this project:
 <table style="border: 1px solid black; border-collapse: collapse;">
@@ -62,6 +63,7 @@ Once on the Chat page, the user can proceed to query the document, by typing in 
 Some of the main components built into this application are: Chat, Document Library, Pricing/Upgrade, Logoff, and others. here is som more details on how these components functionality.
 
 ##### Chat component
+
 
 <img src="ChatWithPdf.png" alt="alt text" width="20" height="20">
 
